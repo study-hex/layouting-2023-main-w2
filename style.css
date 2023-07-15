@@ -59,19 +59,76 @@ img:hover, a:hover {
   opacity: 0.9;
 }
 
+.h-full {
+  height: 100%;
+}
+
+.w-half {
+  width: 50%;
+}
+
 .pt-10 {
   padding-top: 40px;
+}
+
+.py-3 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.py-18 {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.px-6 {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.ml-1 {
+  margin-left: 4px;
+}
+
+.gap-6 {
+  gap: 24px;
+}
+
+.font-xl {
+  font-size: var(--txt-xl);
 }
 
 .font-2xs {
   font-size: calc(var(--txt-base) / 2);
 }
 
+.text-primary {
+  color: var(--color-primary);
+}
+
 .text-light {
   color: var(--color-light);
 }
 
+.theme-white {
+  color: var(--color-black);
+  background: var(--color-white);
+}
+
+.border-radius-8 {
+  border-radius: 32px;
+}
+
+
 /* end of base */
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
 
 .flex {
   display: flex;
@@ -81,8 +138,29 @@ img:hover, a:hover {
   justify-content: space-between;
 }
 
+.align-center {
+  align-items: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
 /* end of utility */
 
+/* QQ */
+.hero-img {
+  /* width: 636px;
+  height: 848px; */
+}
 
 .nav {
   height: 88px;
@@ -90,4 +168,13 @@ img:hover, a:hover {
 
 .hero {
   height: calc(100vh - 88px);
+}
+
+.hero-txt {
+  font-size: calc(var(--txt-xl) / 2);
+}
+
+.btn-contact .material-symbols-outlined {
+  width: 24px;
+  height: 24px;
 }
