@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  outline: 1px solid #f73;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+:root {
+  --color-primary: #00FFA3;
+  --color-secondary: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+  ;
+
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+  --color-light: #D1D1D1;
+
+  --txt-xl: 128px;
+  --txt-lg: 40px;
+  --txt-base: 32px;
+  --txt-sm: 24px;
+  --txt-xs: 20px;
+}
+
+html, body {
+  font-family: 'Bruno Ace', cursive, 'Noto Sans TC', -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: var(--txt-base);
+  line-height: 1.5;
+
+  color: var(--color-white);
+  background: var(--color-black);
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  object-fit: contain;
+}
+
+img:hover, a:hover {
+  opacity: 0.9;
+}
+
+/* end of base */
