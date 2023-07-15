@@ -59,4 +59,35 @@ img:hover, a:hover {
   opacity: 0.9;
 }
 
+.pt-10 {
+  padding-top: 40px;
+}
+
+.font-2xs {
+  font-size: calc(var(--txt-base) / 2);
+}
+
+.text-light {
+  color: var(--color-light);
+}
+
 /* end of base */
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+/* end of utility */
+
+
+.nav {
+  height: 88px;
+}
+
+.hero {
+  height: calc(100vh - 88px);
+}
