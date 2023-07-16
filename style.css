@@ -3,7 +3,7 @@
   padding: 0;
   list-style: none;
 
-  outline: 1px solid #f73;
+  /* outline: 1px solid #f73; */
 }
 
 *,
@@ -92,6 +92,11 @@ img:hover, a:hover {
   padding-bottom: 12px;
 }
 
+.py-10 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .py-18 {
   padding-top: 72px;
   padding-bottom: 72px;
@@ -112,8 +117,16 @@ img:hover, a:hover {
   margin-left: 4px;
 }
 
+.ml-2 {
+  margin-left: 8px;
+}
+
 .mb-1 {
   margin-bottom: 4px;
+}
+
+.mb-4 {
+  margin-bottom: 16px;
 }
 
 .mb-8 {
@@ -175,6 +188,11 @@ img:hover, a:hover {
   background: var(--color-white);
 }
 
+.theme-black {
+  color: var(--color-white);
+  background: var(--color-black);
+}
+
 .border-radius-8 {
   border-radius: 32px;
 }
@@ -202,12 +220,24 @@ img:hover, a:hover {
   flex-wrap: wrap;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
 .justify-between {
   justify-content: space-between;
 }
 
 .align-center {
   align-items: center;
+}
+
+.align-end {
+  align-items: end;
 }
 
 .text-left {
@@ -249,11 +279,16 @@ img:hover, a:hover {
   background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023week2/background-img.png);
 }
 
+.project-10 {
+  /* width: 856px;
+  height: 196px; */
+}
+
 /* end of img */
 
 /* #REVIEW */
 /* #1C1B1F */
-.btn-contact .material-symbols-outlined {
+.btn-contact .material-symbols-outlined, .btn-more-info .material-symbols-outlined {
   width: 24px;
   height: 24px;
 }
@@ -299,4 +334,18 @@ img:hover, a:hover {
   padding-bottom: 129px;
 
   gap: 113px;
+}
+
+/* end of contact */
+
+.project-title {
+  width: 57%;
+}
+
+.project-info {
+  margin-bottom: 28px;
+}
+
+.btn-more-info {
+  margin-top: 76px;
 }
