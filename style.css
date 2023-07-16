@@ -20,6 +20,7 @@
 
   --color-black: #000000;
   --color-white: #FFFFFF;
+  --color-dark: #15161D;
   --color-light: #D1D1D1;
 
   --txt-xl: 128px;
@@ -67,9 +68,20 @@ img:hover, a:hover {
   width: 50%;
 }
 
+.w-two-fifth {
+  width: 40%;
+}
+
+
+.p-4 {
+  padding: 16px;
+}
+
+
 .pt-10 {
   padding-top: 40px;
 }
+
 
 .py-3 {
   padding-top: 12px;
@@ -94,6 +106,10 @@ img:hover, a:hover {
 
 .ml-1 {
   margin-left: 4px;
+}
+
+.mb-1 {
+  margin-bottom: 4px;
 }
 
 .mb-8 {
@@ -137,6 +153,11 @@ img:hover, a:hover {
   color: var(--color-light);
 }
 
+.text-dark {
+  color: var(--color-dark);
+}
+
+/* #REVIEW */
 .theme-white {
   color: var(--color-black);
   background: var(--color-white);
@@ -159,6 +180,10 @@ img:hover, a:hover {
 
 .flex {
   display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .justify-between {
@@ -210,6 +235,8 @@ img:hover, a:hover {
 
 /* end of img */
 
+/* #REVIEW */
+/* #1C1B1F */
 .btn-contact .material-symbols-outlined {
   width: 24px;
   height: 24px;
@@ -227,6 +254,15 @@ img:hover, a:hover {
 
 /* end of header */
 
-.intro-content {
-  width: 40%;
+
+.about>.container {
+  gap: 134px;
+}
+
+.about-card-list {
+  width: 49%;
+}
+
+.about-card-item {  
+  width: 48%;
 }
