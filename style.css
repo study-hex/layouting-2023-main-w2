@@ -60,6 +60,10 @@ img:hover, a:hover {
   opacity: 0.9;
 }
 
+.material-symbols-outlined {
+  font-size: inherit;
+}
+
 .h-full {
   height: 100%;
 }
@@ -122,6 +126,14 @@ img:hover, a:hover {
 
 
 
+.gap-4 {
+  gap: 16px;
+}
+
+.gap-5 {
+  gap: 20px;
+}
+
 .gap-6 {
   gap: 24px;
 }
@@ -172,6 +184,10 @@ img:hover, a:hover {
 
 .block {
   display: block;
+}
+
+.inline {
+  display: inline;
 }
 
 .inline-block {
@@ -242,6 +258,11 @@ img:hover, a:hover {
   height: 24px;
 }
 
+.contact-txt .material-symbols-outlined {
+  /* width: 100px;
+  height: 100px; */
+}
+
 /* end of icons */
 
 .nav {
@@ -263,6 +284,19 @@ img:hover, a:hover {
   width: 49%;
 }
 
-.about-card-item {  
+.about-card-item {
   width: 48%;
+}
+
+/* end of about */
+
+.contact {
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+
+.contact>.container {
+  padding-top: 129px;
+  padding-bottom: 129px;
+
+  gap: 113px;
 }
