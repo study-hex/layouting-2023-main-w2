@@ -296,13 +296,15 @@ a:hover {
   background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023week2/background-img.png);
 }
 
-.discord {
+/* .discord {
   transform: scale(.94);
-}
+} */
 
 .discord, .instagram, .message {
   width: 162px;
   height: 162px;
+  
+  border-radius: 40px;
 }
 
 /* .instagram, .message {
