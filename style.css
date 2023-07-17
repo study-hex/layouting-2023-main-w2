@@ -3,7 +3,7 @@
   padding: 0;
   list-style: none;
 
-  /* outline: 1px solid #f73; */
+  outline: 1px solid #f73;
 }
 
 *,
@@ -19,6 +19,8 @@
   ;
 
   --color-black: #000000;
+  --color-grey: #E3E3E3;
+  --color-icon: #1C1B1F;
   --color-white: #FFFFFF;
   --color-dark: #15161D;
   --color-light: #D1D1D1;
@@ -30,7 +32,8 @@
   --txt-xs: 20px;
 }
 
-html, body {
+html,
+body {
   font-family: 'Bruno Ace SC', 'Bruno Ace', cursive, 'Noto Sans TC', -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: var(--txt-base);
   line-height: 1.5;
@@ -56,7 +59,8 @@ img {
   object-fit: contain;
 }
 
-img:hover, a:hover {
+img:hover,
+a:hover {
   opacity: 0.9;
 }
 
@@ -151,6 +155,7 @@ img:hover, a:hover {
   gap: 24px;
 }
 
+
 .font-xl {
   font-size: var(--txt-xl);
 }
@@ -163,11 +168,13 @@ img:hover, a:hover {
   font-size: var(--txt-sm);
 }
 
+.font-xs {
+  font-size: var(--txt-xs);
+}
+
 .font-2xs {
   font-size: calc(var(--txt-base) / 2);
 }
-
-
 
 
 .text-primary {
@@ -210,6 +217,10 @@ img:hover, a:hover {
 
 .inline-block {
   display: inline-block;
+}
+
+.inline-flex {
+  display: inline-flex;
 }
 
 .flex {
@@ -255,6 +266,7 @@ img:hover, a:hover {
 /* end of utility */
 
 /* QQ */
+
 .hero-img {
   /* width: 636px;
   height: 848px; */
@@ -265,7 +277,8 @@ img:hover, a:hover {
   height: 98px;
 }
 
-.sparkle, .photographer {
+.sparkle,
+.photographer {
   width: 196px;
   height: 600px;
 }
@@ -286,11 +299,16 @@ img:hover, a:hover {
 
 /* end of img */
 
+
+.btn-contact .material-symbols-outlined {
+  color: var(--color-icon);
+}
+
 /* #REVIEW */
-/* #1C1B1F */
-.btn-contact .material-symbols-outlined, .btn-more-info .material-symbols-outlined {
-  width: 24px;
-  height: 24px;
+.btn-contact .material-symbols-outlined,
+.btn-more-info .material-symbols-outlined {
+  /* width: 24px;
+  height: 24px; */
 }
 
 .contact-txt .material-symbols-outlined {
@@ -299,6 +317,7 @@ img:hover, a:hover {
 }
 
 /* end of icons */
+
 
 .nav {
   height: 88px;
@@ -321,6 +340,9 @@ img:hover, a:hover {
 
 .about-card-item {
   width: 48%;
+
+  border: 1px solid var(--color-grey);
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
 }
 
 /* end of about */
@@ -349,3 +371,5 @@ img:hover, a:hover {
 .btn-more-info {
   margin-top: 76px;
 }
+
+/* end of project */
