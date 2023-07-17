@@ -19,3 +19,7 @@
 ---
 
 ## NOTES
+
+### Screenshot
+
+![Screenshot](./Screenshot_2023-07-17.png)
