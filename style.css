@@ -72,10 +72,6 @@ a:hover {
   font-size: inherit;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .w-half {
   width: 50%;
 }
@@ -210,6 +206,11 @@ a:hover {
 
 
 /* end of base */
+
+.h-full {
+  height: 100%;
+}
+
 
 .block {
   display: block;
